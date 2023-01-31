@@ -174,35 +174,32 @@ button{
       display: flex;
       flex-direction: column;
     }
-    input{
-      display: flex;
+    .header{
+        width: 900px;
+        height: 180px;
     }
-    button{
-      position: relative;
-      top: -27px;
-      left: 177px;
-    }
-    .pago{
-      font-size: 18px;
+    .banner{
+        width: 900px;
     }
     .img1{
       width:35%;
     }
     input {
-      width: 22%;
-      left: 285px;
-      padding-top: 0%;
+        top: 55px;
+        width: 20%;
+        left: 325px;
+        padding-top: 0%;
     }
     button {
       position: relative;
-      top: -36px;
+      top: -28px;
       left: 155px;
       padding-top: 1px;
     }
     .pago{
       display: flex;
       position: relative;
-      top: -40px;
+      top: -35px;
       font-size: 12px;
       left: 490px;
     }
@@ -212,16 +209,16 @@ button{
     }
     .lista2{
         position: relative;
-        left: 120px;
+        left: 75px;
         margin: 15px 15px 15px 15px;
         
     }
     .espacio{
       display: flex;
       align-items: center;
-      font-size: 14px;
       position: relative;
-      top: 35px;
+      font-size: 15px;
+      top: -12px;
       right: 14px;
       margin: 15px 15px 15px 15px;
       gap: 10px;
@@ -240,14 +237,7 @@ button{
     main{
         width: 80%;
     }
-    article{
-        display: flex;
-    width: 200px;
-    margin: 10px;
-    text-align: center;
-    line-height: 100px;
-    font-size: 50px;
-    }
+    
   }
 
 
