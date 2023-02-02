@@ -15,10 +15,12 @@ body {
 .header {
     background: #eac926;
     padding: 18px;
-
-
-
-
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .img1 {
@@ -57,6 +59,7 @@ h3 {
     position: relative;
     top: -19px;
     left: 100px;
+    color: #39b54a;
 }
 
 .descuentos1 {
@@ -100,7 +103,7 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 main {
@@ -158,6 +161,11 @@ article {
     left: 280px;
     top: -15px;
 }
+.foter{
+    color: #1259c3;
+    font-size: 20px;
+    margin: 15px 5px 5px 5px;
+}
 
 input {
     width: 35%;
@@ -165,6 +173,7 @@ input {
     left: 224px;
     top: 35px;
     padding-top: 2%;
+    color: #666;
 }
 
 button {
@@ -178,7 +187,51 @@ button {
     position: relative;
     top: -3px;
 }
+.enlace{
+    color: black;
+    text-decoration: none;
+}
+.descripcion{
+    font-size: 10px;
+    width: 50%;
+    position: relative;
+    left: 124px;
+}
+.copy{
+    font-size: 10px;
+    margin: 5px;
+    position: relative;
+    left: 2px;
+}
 
+
+@media(min-width:481px){
+    .logoBuscador{
+    width: 70%;
+    margin: 10px;
+    }
+    input {
+    width: 42%;
+    position: relative;
+    left: 5px;
+    top: -10px;
+    padding-top: 2%;
+}
+    button {
+    position: relative;
+    right: -300px;
+    top: -38px;
+    padding-top: 6px;
+}
+    .fas{
+        padding: 10px 10px;
+        top: 10px;
+    }
+    .container{
+        width: 90%;
+    margin: 15px;
+    }
+}
 @media(min-width:769px) {
     .fas {
             display: none;
@@ -193,20 +246,20 @@ button {
     }
     input {
         width: 22%;
-        position: absolute;
-        left: 244px;
-        top: 39px;
-        padding-top: 5px;
+        position: relative;
+        left: 3px;
+        top: -20px;
+        padding-top: 3px;
 }
 button {
-    position: absolute;
-    right: 335px;
-    top: 39px;
-    padding-top: 4px;
+    position: relative;
+    right: -1px;
+    top: -20px;
+    padding-top: 3px;
 }
 .fa-magnifying-glass {
     position: relative;
-    top: -2px;
+    top: -1px;
 }
 .lista2{
     display: flex;
@@ -228,7 +281,7 @@ button {
 .pago{
     display: flex;
     position: relative;
-    top: -30px;
+    top: -35px;
     font-size: 12px;
     left: 430px;
 }
@@ -239,7 +292,49 @@ button {
     width: 30px;
     left: 550px;
 }
+.logoBuscador{
+    width: 100%;
+    margin: 10px;
+
 }
+.descripcion{
+    width: 50%;
+    position: relative;
+    left: 190px;
+}
+}
+@media(min-width:1024px){
+    .img1 {
+        width: 35%;
+}
+input{
+    top:-35px;
+    width: 17%;
+}
+button{
+    top:-35px;
+}
+.pago{
+    top: -58px;
+    font-size: 18px;
+    left: 590px;
+}
+.espacio{
+    font-size: 18px;
+}
+.lista2{
+    left: 600px;
+    top: -32px;
+}
+.fa-truck{
+    left: 660px;
+}
+.descripcion{
+    left: 250px;
+}
+}
+
+
 
 
 
