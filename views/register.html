@@ -1,40 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Registro</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/mediaQueryStyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
-    
-    <form action="resultado.html" method="POST">
-        <div>
-          <label>Nombre:</label>
-          <input type="text" name="nombre" required>
+
+<body class="body-register">
+  <header>
+    <div class="logoBuscador">
+      <div class="logo-bar-container">
+        <div class="logo">
+          <a href="/"><img src="/images/logo-mercado-liebre.svg" alt="Logo"></a>
         </div>
-  
-        <div>
-          <label>E-mail:</label>
-          <input type="email" name="email" required>
+        <div class="search-button">
+          <div class="search">
+            <input type="text" placeholder="Buscar productos,marcas...">
+            <button><i class="fas fa-search"></i></button>
+          </div>
         </div>
-  
-        <div>
-          <label>Contraseña:</label>
-          <input type="password" name="password" required>
-        </div>
-  
-        <div>
-          <input type="submit" value="ENVIAR">
-        </div>
+      </div>
+      <div class="pago">
+        <h2 class="card-tittle"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito
+        </h2>
+      </div>
+      <div class="menu-container">
+        <ul class="listas">
+          <li>Ofertas</li>
+          <li>Tiendas Oficiales</li>
+          <li>Vender</li>
+          <li>Ayuda</li>
+        </ul>
+
+
+        <ul class="listas">
+          <li><a href="register" class="enlaces">Creá tu cuenta<i class="fa-regular fa-id-card"></i></a>
+          </li>
+          <li><a href="login" class="enlaces">Ingresá<i class="fa-solid fa-right-to-bracket"></i></a>
+          </li>
+          <li><a href="#" class="enlaces">Mis compras<i class="fa-solid fa-basket-shopping"></i></a></li>
+        </ul>
+
+      </div>
+
+      <div class="burgerMenu">
+        <i class="fas fa-bars"></i>
+      </div>
+
+  </header>
+  <main class="main-register">
+    <div class="registro-usuario">
+      <form action="register" method="POST">
+        <label for="nombreyapellido"></label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+        <span class="feedback"></span>
       </form>
-    
-    
-    
+    </div>
+    <div class="registro-usuario">
+      <form action="register" method="POST">
+        <label for="nombredeusuario"></label>
+        <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario" required>
+        <span class="feedback"></span>
+      </form>
+    </div>
+    <div class="registro-usuario">
+      <form class="em" action="register" method="POST">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="E-mail" required>
+        <span class="feedback"></span>
+      </form>
+    </div>
+    <h2 class="h2-register">Fecha de nacimiento</h2>
+    <input type="date" name="fecha" required>
+    <span class="feedback"></span>
+    <div class="registro-usuario">
+      <form action="/login.html" method="POST">
+        <label for="domicilio"></label>
+        <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+        <span class="feedback"></span>
+      </form>
+    </div>
+    <h2 class="h2-register">Perfil de usuario</h2>
+    <div class="perfil-de-usuario-register">
+      <input class="input-comprador" type="radio" name="comprador" value="comprador" />
+      <p class="comprador">Comprador</p>
+      <input class="input-vendedor" type="radio" name="vendedor" value="vendedor" />
+      <p class="vendedor">Vendedor</p>
+      </p>
+    </div>
+    <h2 class="register2">Intereses</h2>
+
+    <div class="checkbox-register">
+      <p class="interes">
+        <input type="checkbox" name="info" value="checked" /> Electro
+      </p>
+      <p class="interes">
+        <input type="checkbox" name="info" value="checked" /> Moda
+      </p>
+      <p class="interes">
+        <input type="checkbox" name="info" value="checked" /> Hogar
+      </p>
+      <p class="interes">
+        <input type="checkbox" name="info" value="checked" /> Jueguetería
+      </p>
+      <p class="interes">
+        <input type="checkbox" name="info" value="checked" /> Vida sana
+      </p>
+    </div>
+
+    <div class="foto-usuario">
+      <label>Seleccionar una imagen de perfil</label>
+      <input type="file" name="avatar" accept=".jpg, .png" multiple>
+      <span class="feedback"></span>
+    </div>
+    <div class="registro-usuario">
+      <form action="register" method="POST">
+        <label for="password"></label>
+        <input type="password" name="password" id="password" placeholder="Contraseña" required>
+        <span class="feedback"></span>
+      </form>
+    </div>
+    <div class="registro-usuario">
+      <form action="register" method="POST">
+        <label for="password2"></label>
+        <input type="password" name="password2" id="password2" placeholder="Confirmar contraseña" required>
+        <span class="feedback"></span>
+      </form>
+    </div>
+
+
+    <form method="get" action="home.html">
+      <div class="registro-enviar">
+        <input class="submit-register" type="submit" value="Enviar" />
+    </form>
+    </div>
+    <div class="registro-enviar">
+      <input class="reset-register" type="reset" value="Borrar" />
+    </div>
+  </main>
+  <footer>
+    <div class="pie-de-pagina">
+      <i class="fa-solid fa-credit-card foter"></i>
+      <h4>Pagá con tarjeta o en efectivo</h4>
+      <p class="descripcion">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+        puntos de pago. ¡Y siempre es seguro!</p>
+    </div>
+    <div class="pie-de-pagina">
+      <i class="fa-solid fa-gift foter"></i>
+      <h4>Envío gratis desde $ 2.500</h4>
+      <p class="descripcion">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+        productos. Es un beneficio de MercadoPuntos.</p>
+    </div>
+    <div class="pie-de-pagina">
+      <i class="fa-solid fa-user-shield foter"></i>
+      <h4>Seguridad, de principio a fin</h4>
+      <p class="descripcion">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+        porque estás siempre protegid@.</p>
+    </div>
+
+  </footer>
+  <p class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+
+
 </body>
+
 </html>

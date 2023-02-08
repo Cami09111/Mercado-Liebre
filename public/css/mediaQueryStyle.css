@@ -1,0 +1,171 @@
+/*Tablests*/
+@media(min-width:768px) {
+  .search-button {
+    top: -81px;
+    left: 278px;
+  }
+
+  .pago {
+    top: -107px;
+    text-align: end;
+    font-size: 8px;
+    padding: 5p;
+    right: 58px;
+  }
+
+  .burgerMenu {
+    display: none;
+  }
+
+  .menu-container {
+    display: flex;
+  }
+
+  .logo {
+    width: 40%;
+  }
+
+  .listas {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 15px;
+    font-size: 14px;
+    top: -15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .fa-truck {
+    left: 180px;
+  }
+
+  .enter {
+    width: 480px;
+    padding: 7px;
+  }
+
+  .contraseña {
+    width: 480px;
+    padding: 7px;
+  }
+
+  .usuario {
+    width: 480px;
+    padding: 7px;
+  }
+
+  .checkbox-register {
+    margin: 0 235px;
+    margin-bottom: 12px;
+  }
+
+  .perfil-de-usuario-register {
+    margin: 0 230px;
+    margin-bottom: 13px;
+  }
+
+  .copy {
+    position: relative;
+    left: 258px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+
+  article {
+    display: flex;
+    flex-basis: 48%;
+  }
+  h4{
+    transition: 0.5s;
+}
+h4:hover{
+  position: relative;
+  color: transparent;
+  bottom: 0;
+  z-index: 1;
+  opacity: 1;
+}
+}
+
+
+/*Desktop*/
+@media(min-width:1024px) {
+  .search-button {
+    top: -87px;
+    left: 376px;
+  }
+
+  .search {
+    font-size: 15px;
+  }
+
+  .pago {
+    top: -112px;
+    font-size: 10px;
+    right: 73px;
+  }
+
+  .listas {
+    font-size: 16px;
+  }
+
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .usuario {
+    width: 715px;
+    padding: 9px;
+  }
+
+  .contraseña {
+    width: 715px;
+    padding: 9px;
+  }
+
+  .enter {
+    width: 715px;
+    padding: 9px;
+  }
+
+  .checkbox-register {
+    margin: 0 360px;
+    margin-bottom: 12px;
+  }
+
+  .perfil-de-usuario-register {
+    margin: 0 360px;
+    margin-bottom: 13px;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  .copy {
+    position: relative;
+    left: 18px;
+  }
+  article{
+    flex-basis: 25%;
+  }
+  .descuento{
+    left: 15px;
+    position: relative;
+  }
+}

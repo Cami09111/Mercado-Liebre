@@ -3,150 +3,93 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-size: 23px;
-    background-color: white;
-    font-family: roboto;
-    background: #ebebeb;
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.logoBuscador {
+    background-color: #EAC926;
 
 }
 
-.header {
-    background: #eac926;
-    padding: 18px;
+.logo {
+    width: 50%;
+    padding: 20px;
 }
-body,html{
+
+.search-button {
+    padding: 15px;
+    position: relative;
+    top: -65px;
+    left: 185px;
+}
+
+main {
+    background-color: #ebebeb;
+
+}
+
+body,
+html {
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     width: 100%;
     margin: 0;
     overflow-x: hidden;
 }
 
-.img1 {
-    background: #eac926;
-    width: 50%;
-
-
-
-}
-
-.pago {
-    text-align: center;
-    font-size: 12px;
-}
-
-
-h2 {
-    font-size: 24px;
-    color: #666;
-}
 
 h3 {
+    font-size: 24px;
+    margin: 15px;
     color: #666;
-    line-height: 30px;
-    font-size: 12px;
 }
 
-.precios {
-    font-size: 18px;
-    position: relative;
-    left: 18px;
-}
-
-.descuentos {
-    font-size: 14px;
-    position: relative;
-    top: -19px;
-    left: 100px;
-    color: #39b54a;
-}
-
-.descuentos1 {
-    position: relative;
-    left: 18px;
-    top: -12px;
-}
-
-.footer {
-    text-align: center;
-    background: white;
-    font-size: 14px;
-
-}
-
-.fas {
-    background-color: #1259c3;
-    color: white;
-    display: block;
-    max-width: 50px;
-    padding: 15px 15px;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 18px;
-    margin: auto;
-    position: relative;
-    top: 16px;
-}
-
-.espacio {
-    list-style: none;
-    font-size: 17px;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    color: #222222;
-    display: inline-block;
-    padding: 5px 0;
-
-}
-
-h4 {
-    font-size: 15px;
-}
-
-main {
-
+.imagen {
     width: 90%;
-    margin: 0 auto;
     text-align: center;
-
+    position: relative;
+    left: 10px;
 
 }
 
 .main-articulo {
-    height: 100%;
-    width: 100%;
-    text-align: left;
-    box-shadow: 0px 0px 1px 0px #666;
-
-}
-
-.articulos {
-    text-align: center;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: 15px 15px 15px 15px;
-}
-
-article {
+    width: 90%;
     background-color: white;
-    margin: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: -3px;
+    left: 20px;
     box-shadow: 0px 0px 5px 1px #666;
 
 }
 
+h4 {
+    color: #666;
+    
+}
+
+
+
+h5 {
+    color: #666;
+    font-size: 24px;
+    margin: 15px;
+    text-align: start;
+}
+
+.articulos {
+    border-top: 1px solid #ebebeb;
+    padding: 10px;
+
+}
+
+
 .banner {
     width: 100%;
-    height: 100%;
-
 }
 
-.listado1 {
-    display: none;
-}
+
 
 .fa-truck {
     display: block;
@@ -158,184 +101,276 @@ article {
     position: relative;
     width: 30px;
     height: 30px;
-    left: 280px;
-    top: -15px;
+    left: 270px;
+    top: -25px;
 }
-.foter{
+
+.pago {
+    position: relative;
+    top: -25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.burgerMenu {
+    background-color: #1259c3;
+    color: white;
+    max-width: 40px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 15px;
+}
+
+.menu-container {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.foter {
     color: #1259c3;
     font-size: 20px;
     margin: 15px 5px 5px 5px;
+    
+}
+.foter:hover{
+    color:#EAC926;
+}
+
+.pie-de-pagina {
+    margin: 15px;
+    font-size: 12px;
+}
+
+.copy {
+    font-size: 12px;
+    position: relative;
+    left: 94px;
+}
+
+.descuento {
+    color: #39b54a;
+    width: 70%;
+}
+
+.precio {
+    width: 30%;
+}
+.art {
+    display: flex;
+    margin-bottom: 12px;
+}
+.search {
+    font-size: 12px;
+}
+.usuario {
+    width: 300px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+
+}
+
+.contraseña {
+    width: 300px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+
+}
+
+.enter {
+    width: 300px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #1259c3;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.enter:hover{
+    background-color: #0022AA;
 }
 
 input {
-    width: 35%;
-    position: absolute;
-    left: 224px;
-    top: 35px;
-    padding-top: 2%;
-    color: #666;
-}
-
-button {
-    position: absolute;
-    right: 52px;
-    top: 35px;
-    padding-top: 9px;
-}
-
-.fa-magnifying-glass {
-    position: relative;
-    top: -3px;
-}
-.enlace{
-    color: black;
-    text-decoration: none;
-}
-.descripcion{
-    font-size: 10px;
-    width: 50%;
-    position: relative;
-    left: 124px;
-}
-.copy{
-    font-size: 10px;
-    margin: 5px;
-    position: relative;
-    left: 2px;
-}
+    border: 0;
 
 
-@media(min-width:481px){
-    .logoBuscador{
-    width: 70%;
-    margin: 10px;
-    }
-    input {
-    width: 42%;
-    position: relative;
-    left: 5px;
-    top: -10px;
-    padding-top: 2%;
 }
-    button {
-    position: relative;
-    right: -300px;
-    top: -38px;
-    padding-top: 6px;
-}
-    .fas{
-        padding: 10px 10px;
-        top: 10px;
-    }
-    .container{
-        width: 90%;
-    margin: 15px;
-    }
-}
-@media(min-width:769px) {
-    .fas {
-            display: none;
-        }
-    
-    .listado1 {
-            display: flex;
-        flex-direction: column;
-    }
-    .img1 {
-        width: 30%;
-    }
-    input {
-        width: 22%;
-        position: relative;
-        left: 3px;
-        top: -20px;
-        padding-top: 3px;
-}
-button {
-    position: relative;
-    right: -1px;
-    top: -20px;
-    padding-top: 3px;
-}
-.fa-magnifying-glass {
-    position: relative;
-    top: -1px;
-}
-.lista2{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 400px;
-    gap: 10px;
-    font-size: 14px;
-    top: -27px
-}
-.espacio{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    gap: 10px;
-    top: 30px;
-    font-size: 14px;
-}
-.pago{
-    display: flex;
-    position: relative;
-    top: -35px;
+
+.submit-login {
+    background-color: #1259c3;
+    color: white;
     font-size: 12px;
-    left: 430px;
 }
-.fa-truck {
-    border-radius: 50%;
+
+form input[type="password"] {
+    font-size: 12px;
+}
+
+form input[type="text"] {
+    font-size: 12px;
+}
+
+.main-de-login {
+    padding: 12px;
+}
+
+.registro-usuario {
+    width: 300px;
     padding: 5px;
+    border-radius: 4px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.h2-register {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+input[type="date"] {
+    width: 300px;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    padding: 7px;
+}
+
+.registro-enviar {
+    width: 51px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-register {
+    background-color: white;
+}
+
+.reset-register {
+    background-color: white;
+}
+
+.foto-usuario {
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-register {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.checkbox-register {
+    margin: 0 60px;
+    margin-bottom: 13px;
+    font-size: 12px;
+}
+
+.perfil-de-usuario-register {
+    margin: 0 60px;
+    margin-bottom: 13px;
+    margin-top: -10px;
     position: relative;
-    width: 30px;
-    left: 550px;
+    right: 44px;
+    font-size: 12px;
 }
-.logoBuscador{
-    width: 100%;
-    margin: 10px;
 
+.em {
+    font-size: 12px;
 }
-.descripcion{
-    width: 50%;
+
+.comprador {
     position: relative;
-    left: 190px;
-}
-}
-@media(min-width:1024px){
-    .img1 {
-        width: 35%;
-}
-input{
-    top:-35px;
-    width: 17%;
-}
-button{
-    top:-35px;
-}
-.pago{
-    top: -58px;
-    font-size: 18px;
-    left: 590px;
-}
-.espacio{
-    font-size: 18px;
-}
-.lista2{
-    left: 600px;
-    top: -32px;
-}
-.fa-truck{
-    left: 660px;
-}
-.descripcion{
-    left: 250px;
-}
+    top: -15px;
+    left: 91px;
 }
 
+.vendedor {
+    position: relative;
+    bottom: 47px;
+    left: 238px;
+}
 
+.input-comprador {
+    position: relative;
+    left: 52px;
+}
 
+.input-vendedor {
+    position: relative;
+    top: -30px;
+    left: 197px;
+}
 
+.register2 {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+    font-size: 14px;
+    margin-top: -41px;
+}
 
-    
+.interes {
+    position: relative;
+    margin-bottom: 16px;
+}
+.body-login{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.body-register{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
