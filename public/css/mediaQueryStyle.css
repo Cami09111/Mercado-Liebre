@@ -169,3 +169,15 @@ h4:hover{
     position: relative;
   }
 }
+
+/*Desktop*/
+@media(min-width:2560px) {
+  .search-button{
+    top: -156px;
+    left: 970px;
+  }
+  .pago{
+    top: -165px;
+    right: 1070px;
+  }
+}
