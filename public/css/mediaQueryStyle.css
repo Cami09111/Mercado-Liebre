@@ -220,31 +220,4 @@
     position: relative;
     left: 312px;
   }
-  .main-articulo {
-    transition: all 1ms;
-  }
-
-  article:hover {
-    box-shadow: 5px 5px 40px;
-  }
-
-  h4 {
-    display: none;
-    overflow: hidden;
-    transition: all 1ms;
-  }
-
-  div:hover h4 {
-    display: block;
-
-  }
-
-  .fa-truck {
-    left: 400px;
-  }
-
-  .fa-truck:hover {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
 }
