@@ -70,29 +70,44 @@
     left: 258px;
   }
 
-  .container{
+  .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-between;
   }
-  
 
   article {
     display: flex;
     flex-basis: 48%;
   }
-  h4{
-    transition: 0.5s;
-}
-h4:hover{
-  position: relative;
-  color: transparent;
-  bottom: 0;
-  z-index: 1;
-  opacity: 1;
-}
+  .main-articulo{
+    transition: all 1ms;
+  }
+  article:hover {
+    box-shadow: 5px 5px 40px;
+  }
+
+  h4 {
+    display: none;
+    overflow: hidden;
+    transition: all 1ms;
+  }
+
+  div:hover h4 {
+    display: block;
+
+  }
+
+  .fa-truck {
+    left: 400px;
+  }
+
+  .fa-truck:hover {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
 }
 
 
@@ -161,10 +176,12 @@ h4:hover{
     position: relative;
     left: 18px;
   }
-  article{
+
+  article {
     flex-basis: 25%;
   }
-  .descuento{
+
+  .descuento {
     left: 15px;
     position: relative;
   }
@@ -172,27 +189,32 @@ h4:hover{
 
 /*Desktop*/
 @media(min-width:1440px) {
-  .search-button{
+  .search-button {
     top: -156px;
     left: 970px;
   }
-  .pago{
+
+  .pago {
     top: -165px;
     right: 1070px;
   }
+
   .search-button {
     top: -105px;
     left: 510px;
-}
-.pago{
-  top: -125px;
-  right: 410px;
-}
-.perfil-de-usuario-register{
-  right: -158px;
-}
-.checkbox-register{
-  position: relative;
-  left: 312px;
-}
+  }
+
+  .pago {
+    top: -125px;
+    right: 410px;
+  }
+
+  .perfil-de-usuario-register {
+    right: -158px;
+  }
+
+  .checkbox-register {
+    position: relative;
+    left: 312px;
+  }
 }
