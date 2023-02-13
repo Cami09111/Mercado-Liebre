@@ -64,11 +64,8 @@ h3 {
 }
 
 h4 {
-    color: #666;
-    
+    color: #666;  
 }
-
-
 
 h5 {
     color: #666;
@@ -76,7 +73,9 @@ h5 {
     margin: 15px;
     text-align: start;
 }
-
+.p-footer{
+    color: #666;
+}
 .articulos {
     border-top: 1px solid #ebebeb;
     padding: 10px;
@@ -224,8 +223,6 @@ footer {
 
 input {
     border: 0;
-
-
 }
 
 .submit-login {

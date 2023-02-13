@@ -37,7 +37,7 @@
   }
 
   .fa-truck {
-    left: 180px;
+    left: 540px;
   }
 
   .enter {
@@ -82,6 +82,7 @@
     display: flex;
     flex-basis: 48%;
   }
+  
 }
 
 
@@ -182,7 +183,7 @@
 
 
   .fa-truck {
-    left: 254px;
+    left: 165px;
   }
 
   .fa-truck:hover {
