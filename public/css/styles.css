@@ -54,13 +54,12 @@ h3 {
 }
 
 .main-articulo {
-    width: 90%;
+    width: 100%;
     background-color: white;
     margin-bottom: 10px;
     position: relative;
-    margin-top: -3px;
     left: 20px;
-    box-shadow: 0px 0px 5px 1px #666;
+    
 
 }
 
