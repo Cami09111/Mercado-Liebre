@@ -370,3 +370,6 @@ input[type="date"] {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+.fin{
+    margin-bottom: 30px;
+}
