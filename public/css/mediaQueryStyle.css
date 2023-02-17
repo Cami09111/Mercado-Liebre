@@ -233,10 +233,22 @@
     position: relative;
     left: 215px;
   }
+  .main-articulo{
+    margin-bottom: 5px;
+    left: 26px;
+  }
   .main-articulo:hover {
     box-shadow: 0;
     -webkit-box-shadow: 5px 5px 20px 13px #999;
     transition: .5s;
+  }
+  .fa-truck {
+    left: 245px;
+  }
+
+  .main-articulo:hover .fa-truck {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 
   h4 {
@@ -254,16 +266,4 @@
   }
 
 
-  .fa-truck {
-    left: 245px;
-  }
-
-  .fa-truck:hover {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
-  .main-articulo{
-    margin-bottom: 5px;
-    left: 26px;
-  }
 }
