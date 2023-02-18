@@ -126,7 +126,7 @@
   .container1 {
     display: flex;
     flex-wrap: wrap;
-
+    left: -6px;
   }
 
   .container2 {
@@ -277,5 +277,8 @@
   }
   .fin{
     margin-bottom: 0;
+  }
+  .container1{
+    left: -7px;
   }
 }
