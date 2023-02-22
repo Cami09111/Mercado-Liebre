@@ -211,6 +211,9 @@
   .fin{
     margin-bottom: 0;
   }
+  .search-button button{
+    right: 3px;
+  }
 }
 
 

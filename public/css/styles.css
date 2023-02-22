@@ -373,3 +373,12 @@ input[type="date"] {
 .fin{
     margin-bottom: 30px;
 }
+.search-button input{
+    border-radius: 4px;
+    font-size: 13px;
+}
+.search-button button{
+    font-size: 9px;
+    position: relative;
+    bottom: 1px;
+}
