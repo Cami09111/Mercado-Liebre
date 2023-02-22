@@ -205,8 +205,8 @@
   }
 
   .fa-truck:hover {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
   .fin{
     margin-bottom: 0;
@@ -258,8 +258,8 @@
   }
 
   .main-articulo:hover .fa-truck {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
 
   h4 {
