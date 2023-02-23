@@ -278,7 +278,7 @@ input[type="date"] {
     width: 51px;
     padding: 5px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #1259c3;
     margin: 0 auto;
     margin-bottom: 5px;
     display: flex;
@@ -287,11 +287,11 @@ input[type="date"] {
 }
 
 .submit-register {
-    background-color: white;
+    background-color: #1259c3;
 }
 
 .reset-register {
-    background-color: white;
+    background-color: #1259c3;
 }
 
 .foto-usuario {
