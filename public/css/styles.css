@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
 .logoBuscador {
     background-color: #EAC926;
 
@@ -37,7 +39,6 @@ html {
     margin: 0;
     overflow-x: hidden;
 }
-
 
 h3 {
     font-size: 24px;
@@ -73,21 +74,20 @@ h5 {
     margin: 15px;
     text-align: start;
 }
+
 .p-footer{
     color: #666;
 }
+
 .articulos {
     border-top: 2px solid #ebebeb;
     padding: 10px;
 
 }
 
-
 .banner {
     width: 100%;
 }
-
-
 
 .fa-truck {
     display: block;
@@ -171,13 +171,16 @@ footer {
 .precio {
     width: 30%;
 }
+
 .art {
     display: flex;
     margin-bottom: 12px;
 }
+
 .search {
     font-size: 12px;
 }
+
 .usuario {
     width: 300px;
     padding: 3px;
@@ -189,7 +192,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 24px;
-
 }
 
 .contraseña {
@@ -202,7 +204,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 24px;
-
 }
 
 .enter {
@@ -215,8 +216,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
+
 .enter:hover{
     background-color: #0022AA;
 }
@@ -362,21 +363,26 @@ input[type="date"] {
     position: relative;
     margin-bottom: 16px;
 }
+
 .body-login{
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
 .body-register{
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
 .fin{
     margin-bottom: 30px;
 }
+
 .search-button input{
     border-radius: 4px;
     font-size: 13px;
 }
+
 .search-button button{
     font-size: 9px;
     position: relative;

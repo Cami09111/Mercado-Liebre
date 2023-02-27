@@ -81,6 +81,7 @@
     display: flex;
     flex-basis: 46%;
   }
+
   .container1{
     display: flex;
     flex-direction: row;
@@ -88,14 +89,17 @@
     position: relative;
     left: 28px;
   }
+
   .container2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .main-articulo{
     margin-bottom: 30px;
   }
+
   .fin{
     margin-bottom: 0;
   }
@@ -191,14 +195,12 @@
     position: absolute;
     bottom: 0;
     transition: all 250ms ease;
-
   }
 
   article:hover h4 {
     height: 20px;
     opacity:1;
   }
-
 
   .fa-truck {
     left: 165px;
@@ -208,9 +210,11 @@
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
   }
+
   .fin{
     margin-bottom: 0;
   }
+
   .search-button button{
     right: 3px;
   }
@@ -247,15 +251,18 @@
     position: relative;
     left: 215px;
   }
+
   .main-articulo{
     margin-bottom: 30px;
     left: 26px;
   }
+
   .main-articulo:hover {
     box-shadow: 0;
     -webkit-box-shadow: 5px 5px 20px 13px #999;
     transition: .5s;
   }
+
   .fa-truck {
     left: 245px;
   }
@@ -278,9 +285,11 @@
     height: 20px;
     opacity:1;
   }
+
   .fin{
     margin-bottom: 0;
   }
+  
   .container1{
     left: -7px;
   }
